@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Wallpaper</string>
+    <string name="wallpaper">WallPaper</string>
+    <string name="nature">Nature</string>
+    <string name="woman">Woman</string>
+    <string name="_4k">4K</string>
+    <string name="animals">Animals</string>
+    <string name="fashion">Fashion</string>
+    <string name="beautiful">Beautiful</string>
+    <string name="flowers">Flowers</string>
+    <string name="cars">Cars</string>
+</resources>

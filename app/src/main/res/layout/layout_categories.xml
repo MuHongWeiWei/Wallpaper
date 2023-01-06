@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:overScrollMode="never"
+    android:padding="@dimen/_8sdp"
+    android:scrollbars="none">
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/categoriesChipGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:selectionRequired="true"
+        app:singleSelection="true">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipNature"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_regular"
+            android:checked="true"
+            android:includeFontPadding="false"
+            android:text="@string/nature"
+            android:textColor="@color/text_color_chip_state_list"
+            android:textSize="@dimen/_12ssp"
+            app:chipBackgroundColor="@color/background_color_chip_state_list" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipWoman"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_regular"
+            android:includeFontPadding="false"
+            android:text="@string/woman"
+            android:textColor="@color/text_color_chip_state_list"
+            android:textSize="@dimen/_12ssp"
+            app:chipBackgroundColor="@color/background_color_chip_state_list" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip4k"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_regular"
+            android:includeFontPadding="false"
+            android:text="@string/_4k"
+            android:textColor="@color/text_color_chip_state_list"
+            android:textSize="@dimen/_12ssp"
+            app:chipBackgroundColor="@color/background_color_chip_state_list" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipAnimals"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_regular"
+            android:includeFontPadding="false"
+            android:text="@string/animals"
+            android:textColor="@color/text_color_chip_state_list"
+            android:textSize="@dimen/_12ssp"
+            app:chipBackgroundColor="@color/background_color_chip_state_list" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipFashion"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_regular"
+            android:includeFontPadding="false"
+            android:text="@string/fashion"
+            android:textColor="@color/text_color_chip_state_list"
+            android:textSize="@dimen/_12ssp"
+            app:chipBackgroundColor="@color/background_color_chip_state_list" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipBeautiful"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_regular"
+            android:includeFontPadding="false"
+            android:text="@string/beautiful"
+            android:textColor="@color/text_color_chip_state_list"
+            android:textSize="@dimen/_12ssp"
+            app:chipBackgroundColor="@color/background_color_chip_state_list" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipFlowers"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_regular"
+            android:includeFontPadding="false"
+            android:text="@string/flowers"
+            android:textColor="@color/text_color_chip_state_list"
+            android:textSize="@dimen/_12ssp"
+            app:chipBackgroundColor="@color/background_color_chip_state_list" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipCars"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_regular"
+            android:includeFontPadding="false"
+            android:text="@string/cars"
+            android:textColor="@color/text_color_chip_state_list"
+            android:textSize="@dimen/_12ssp"
+            app:chipBackgroundColor="@color/background_color_chip_state_list" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+
+</HorizontalScrollView>
